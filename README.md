@@ -170,3 +170,90 @@ def run_pipeline():
 # =========================
 if __name__ == "__main__":
     run_pipeline()
+# Hybrid Neuro-Symbolic Self-Correcting AI
+
+This repository contains a **research-oriented prototype** that addresses one of the core problems in modern AI systems:
+
+> **The “Logic vs Stochastic” (Hallucination) Problem**
+
+Current AI models excel at statistical pattern recognition but often fail at simple, rigid logic when facing unseen scenarios.  
+This project explores a **hybrid approach** combining neural inference with symbolic reasoning and self-correction.
+
+---
+
+## 🧠 Core Idea
+
+The system integrates:
+
+- **Neural Components** (pattern recognition)
+  - Visual analysis (object severity detection)
+  - Audio sentiment analysis
+  - OCR-based semantic extraction
+  - Knowledge-based semantic verification
+
+- **Symbolic AI Components** (deterministic logic)
+  - Rule-based decision engine
+  - Explicit if–then reasoning
+  - Hard constraints and logical consistency checks
+
+- **Temporal Reasoning**
+  - Prevents overreaction to single extreme frames
+  - Evaluates stability across time windows
+
+- **Self-Correction Layer**
+  - Detects uncertainty
+  - Re-evaluates decisions using symbolic rules and knowledge confidence
+  - Reduces hallucinated conclusions
+
+---
+
+## 🎯 Goal
+
+To demonstrate how **Neural Networks + Symbolic AI** can work together to:
+
+- Reduce hallucination
+- Improve logical consistency
+- Enable context-aware moderation and classification
+- Support explainable AI decisions
+
+---
+
+## 🧩 Example Use Case
+
+If a video contains:
+- **Extreme visual content**
+- **Calm, scientific narration**
+- **Valid medical or educational references**
+
+Then the system can:
+- Contextualize the extremity
+- Whitelist the content
+- Allow monetization or safe distribution
+
+---
+
+## 📂 Project Structure
+
+---
+
+## ⚠️ Disclaimer
+
+This project is a **conceptual and architectural prototype**.
+
+- Neural models are represented as modular placeholders
+- Real-world deployment would require:
+  - Trained vision/audio/OCR models
+  - Verified medical knowledge databases
+  - Scalable inference infrastructure
+
+---
+
+## 🤖 Development Note
+
+This project was built as a **personal exploration** using **AI-assisted coding** combined with original system design and reasoning decisions.
+
+---
+
+## 📜 License
+
+Open for research, learning, and experimentation.
